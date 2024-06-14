@@ -47,16 +47,15 @@ body,
 body {
   font-family: var(--font-jost);
   margin: 0;
-  padding:0;
+  padding: 0;
   color: var(--color-dark-500);
 
   display: flex;
   flex-flow: column;
 }
 
-
 .main {
-  flex: 1 1 auto
+  flex: 1 1 auto;
 }
 
 ::selection {
@@ -101,7 +100,6 @@ h6 {
 
 p {
   margin: 0;
-
 }
 
 ul,
@@ -113,6 +111,7 @@ ol {
 
 a {
   color: var(--color-dark-500);
+  text-decoration: none;
 
   &:focus {
     opacity: .8;
